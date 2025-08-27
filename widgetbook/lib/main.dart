@@ -43,6 +43,9 @@ class WidgetbookApp extends StatelessWidget {
         color: const Color(0xFF404040),
         child: child,
       ),
+      integrations: [
+        McpIntegration(),
+      ],
       addons: [
         BuilderAddon(
           name: 'Disable Animations (Cloud)',
@@ -59,7 +62,7 @@ class WidgetbookApp extends StatelessWidget {
         ),
         GitHubAddon('widgetbook/groceries-demo'),
         ViewportAddon([
-          Viewports.none, 
+          Viewports.none,
           IosViewports.iPhone13,
           IosViewports.iPad,
         ]),
@@ -87,13 +90,8 @@ class WidgetbookApp extends StatelessWidget {
         ),
         AlignmentAddon(),
         TextScaleAddon(),
-        BuilderAddon(
-          name: 'SafeArea',
-          builder: (_, child) => SafeArea(
-            child: child,
-          ),
-        ),
         SemanticsAddon(),
+        McpAddon(),
       ],
     );
   }

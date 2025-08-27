@@ -411,6 +411,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.11.1"
+  mcp_dart:
+    dependency: transitive
+    description:
+      name: mcp_dart
+      sha256: fbcefc1aa39c73712d961236c1ce6000a24c1a2a6902c03a498bb44c44393814
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.1"
   meta:
     dependency: transitive
     description:
@@ -787,10 +795,11 @@ packages:
   widgetbook:
     dependency: "direct main"
     description:
-      name: widgetbook
-      sha256: "2d0e649fd73f092afc373272bf46d12e7637a540baa549562393fecf3a387eeb"
-      url: "https://pub.dev"
-    source: hosted
+      path: "packages/widgetbook"
+      ref: "feat/mcp-server"
+      resolved-ref: "493d09407f4c443622c12616acae64e166316903"
+      url: "https://github.com/widgetbook/widgetbook.git"
+    source: git
     version: "3.16.0"
   widgetbook_annotation:
     dependency: "direct main"

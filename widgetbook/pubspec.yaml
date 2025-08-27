@@ -16,7 +16,11 @@ dependencies:
   groceries_app:
     path: ../
   url_launcher: ^6.3.2
-  widgetbook: ^3.16.0
+  widgetbook:
+    git:
+      url: https://github.com/widgetbook/widgetbook.git
+      ref: feat/mcp-server
+      path: packages/widgetbook
   widgetbook_annotation: ^3.7.0
 
 dev_dependencies:
