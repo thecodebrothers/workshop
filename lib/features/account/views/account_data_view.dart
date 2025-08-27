@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart' hide Icon;
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../../../data/data.dart';
 import '../../../ui/ui.dart';
@@ -25,15 +24,6 @@ class AccountDataView extends StatelessWidget {
           AccountCard(
             name: user.name,
           ),
-          if (!user.isVerified)
-            PrimaryButton(
-              content: 'Verify Email',
-              onPressed: onVerifyEmail,
-              leading: Icon(
-                FontAwesomeIcons.circleExclamation,
-                color: AppTheme.of(context).text.inverse,
-              ),
-            ),
         ],
       ),
     );
