@@ -83,7 +83,7 @@ Note: If you're using VS Code you can find the rules in `.github/prompts`.
 
 1. Make sure you have the lastest version of the Figma Desktop App installed. 
 1. If you don't have a Figma account with an Professional, Organization, or Enterprise plan, log into the following Figma account:
-   - Email: contact+figma@widgetbook.io
+   - Email: `engineering@widgetbook.io`
    - Password: `WidgetbookWorkshop`
    - Notes: Account will be deactivated after the workshop 
 1. If you have one of the mentioned paid plans, open the Figma file
