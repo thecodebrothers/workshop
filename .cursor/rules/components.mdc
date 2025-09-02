@@ -1,0 +1,30 @@
+---
+alwaysApply: true
+---
+# Figma variables to Flutter
+Map the following variables to their Flutter counterpart 
+- `spacing/<id>` to `AppTheme.of(context).spacing.<id>`
+- `color/<id>` to `AppTheme.of(context).color.<id>`
+- `radius/<id>` to `AppTheme.of(context).radius.<id>`
+- `typo/<id>/` to `AppTheme.of(context).typography.<id>`
+
+# Colors and Theming
+- WARNING: Never use hard-coded color values.
+- IMPORTANT: Use `AppTheme.of(context).color.<id>` for colors.
+- Prefer using the `spacing` property of Flutter's `Row` or `Column` instead of using `SizedBox`.
+
+# Mapping React.ReactNode properties
+- Properties with `React.ReactNode` type correspond to Figma instance swap properties. 
+- Map `React.ReactNode` properties to `Widget` properties in Flutter
+- If the property is nullable, make sure the Flutter property is nullable as well. 
+  - Map nullable Flutter properties to a nullable knob in Widgetbook.
+
+# States and callbacks 
+- Implement callback for interactable components always as nullable
+  - If the callback is null, the component is disabled 
+- WARNING: Avoid implementing a dedicated component property for the state
+- IMPORTANT: Implement component states based on the interaction
+  - For instance, for a hover state use a GuestureDetector or MouseRegion and implement a StatefulWidget
+
+# Test
+WARNING: Do not create test files. 

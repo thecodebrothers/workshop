@@ -1,0 +1,12 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Widgetbook
+
+- Assume Widgetbook is already running
+- Do not try to run Widgetbook 
+
+## Use-cases and Knobs
+- Reduce the number of use-cases by using knobs
