@@ -1,6 +1,6 @@
 import '../ui.dart';
-import 'background_theme_data.dart';
 import 'border_theme_data.dart';
+import 'color_theme_data.dart';
 import 'radius_theme_data.dart';
 import 'spacing_theme_data.dart';
 import 'text_theme_data.dart';
@@ -19,13 +19,13 @@ class AppThemeData {
   final SpacingThemeData spacing;
   final TypographyThemeData typography;
   final RadiusThemeData radius;
-  final BackgroundThemeData background;
+  final ColorThemeData background;
   final BorderThemeData border;
   final TextThemeData text;
 
   static AppThemeData light = AppThemeData(
     typography: TypographyThemeData.fromColor(DesignSystemColor.grey.shade800),
-    background: BackgroundThemeData(
+    background: ColorThemeData(
       primary: DesignSystemColor.primary.shade100,
       primaryInactive: DesignSystemColor.primary.shade600,
       secondary: DesignSystemColor.primary.shade200,
@@ -46,7 +46,7 @@ class AppThemeData {
 
   static AppThemeData dark = AppThemeData(
     typography: TypographyThemeData.fromColor(DesignSystemColor.grey.shade200),
-    background: BackgroundThemeData(
+    background: ColorThemeData(
       primary: DesignSystemColor.primary.shade900,
       primaryInactive: DesignSystemColor.primary.shade600,
       secondary: DesignSystemColor.primary.shade800,

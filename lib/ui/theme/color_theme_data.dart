@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 
-class BackgroundThemeData {
-  BackgroundThemeData({
+class ColorThemeData {
+  ColorThemeData({
     required this.primary,
     required this.primaryInactive,
     required this.secondary,
