@@ -90,6 +90,6 @@ Note: If you're using VS Code you can find the rules in `.github/prompts`.
 
 ## Resources
 
-- [🔗 Figma File](https://www.figma.com/design/HsANkdhbsCNTkXBzNJRNLD/Groceries-Demo?node-id=7225-2991&t=4oLAnrUYEax8YzGo-1)
+- [🔗 Figma File](https://www.figma.com/design/z68rSm9RwJ2pquWp1imejn/Groceries-Demo--F-F-?node-id=7235-4663&t=Inzc918bUkay9IZc-4)
 - [🔗 Widgetbook Docs](https://docs.widgetbook.io/)
 - [🔗 Widgetbook Cloud](https://app.widgetbook.io/)
